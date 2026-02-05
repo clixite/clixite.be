@@ -19,7 +19,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT || 22 }}
+          port: 22
           script_stop: true
           script: |
             APP_DIR=${APP_DIR:-/var/www/clixite.be}
