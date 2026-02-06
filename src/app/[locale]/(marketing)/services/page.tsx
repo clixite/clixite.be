@@ -5,7 +5,6 @@ import { AnimatedSection } from '@/components/ui/animated-section';
 import { GlassCard } from '@/components/ui/glass-card';
 import { CTASection } from '@/components/sections/cta-section';
 import { cn } from '@/lib/utils';
-import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 
@@ -32,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ServicesPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = useTranslations('Services');
+    const t = await getTranslations({ locale, namespace: 'Services' });
 
     return (
         <>
