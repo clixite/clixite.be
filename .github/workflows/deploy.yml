@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: clixite.be
 
     steps:
       - name: Checkout repository
