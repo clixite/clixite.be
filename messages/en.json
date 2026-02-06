@@ -6,13 +6,21 @@
             "about": "About",
             "contact": "Contact",
             "caseStudies": "Case Studies",
-            "auditRequest": "Contact us"
+            "auditRequest": "Contact us",
+            "mobileMenuTitle": "Navigation Menu",
+            "mobileMenuDesc": "Access the site sections",
+            "language": "Language"
         },
         "footer": {
             "description": "Architect of digital sovereignty and AI-enhanced software excellence.",
-            "rights": "All rights reserved.",
+            "services": "Services",
+            "solutions": "Solutions",
+            "agency": "Agency",
             "legal": "Legal Notice",
-            "privacy": "Privacy Policy"
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions",
+            "cookies": "Cookies",
+            "rights": "All rights reserved."
         }
     },
     "Home": {
@@ -304,17 +312,43 @@
             "reset_search": "Reset search",
             "learn_more": "Learn more",
             "categories": {
-                "Tous": "All",
-                "Productivité": "Productivity",
-                "Sécurité": "Security",
-                "Médias": "Media",
-                "Monitoring": "Monitoring",
-                "Automatisation": "Automation",
-                "Développement": "Development",
-                "BI": "BI",
-                "Documents": "Documents",
-                "Communication": "Communication"
+                "all": "All",
+                "productivity": "Productivity",
+                "security": "Security",
+                "media": "Media",
+                "monitoring": "Monitoring",
+                "automation": "Automation",
+                "development": "Development",
+                "bi": "BI",
+                "documents": "Documents",
+                "communication": "Communication"
             }
         }
+    },
+    "Legal": {
+        "hero": {
+            "badge": "Legal",
+            "title": "Legal Notice",
+            "description": "Information about the site publisher and hosting."
+        }
+    },
+    "Privacy": {
+        "hero": {
+            "badge": "GDPR",
+            "title": "Privacy Policy",
+            "description": "We respect your privacy and protect your data."
+        }
+    },
+    "Terms": {
+        "hero": {
+            "badge": "Legal",
+            "title": "Terms & Conditions",
+            "description": "Effective as of January 1, 2025"
+        }
+    },
+    "CaseStudies": {
+        "badge": "Coming Soon",
+        "description": "This section will showcase our case studies and success stories. Check back soon!",
+        "contact_cta": "In the meantime, feel free to contact us to discuss your projects."
     }
 }

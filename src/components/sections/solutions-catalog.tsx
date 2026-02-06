@@ -16,27 +16,27 @@ const iconMap: Record<string, any> = {
 };
 
 const categoryKeys = [
-    'Tous',
-    'Productivité',
-    'Sécurité',
-    'Médias',
-    'Monitoring',
-    'Automatisation',
-    'Développement',
-    'BI',
-    'Documents',
-    'Communication'
+    'all',
+    'productivity',
+    'security',
+    'media',
+    'monitoring',
+    'automation',
+    'development',
+    'bi',
+    'documents',
+    'communication'
 ];
 
 export function SolutionsCatalog() {
     const t = useTranslations('Solutions.catalog');
     const [searchQuery, setSearchQuery] = useState('');
-    const [activeCategory, setActiveCategory] = useState('Tous');
+    const [activeCategory, setActiveCategory] = useState('all');
 
     const filteredSolutions = solutionsData.filter(solution => {
         const matchesSearch = solution.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
             solution.description.toLowerCase().includes(searchQuery.toLowerCase());
-        const matchesCategory = activeCategory === 'Tous' || solution.category === activeCategory;
+        const matchesCategory = activeCategory === 'all' || solution.category === activeCategory;
         return matchesSearch && matchesCategory;
     });
 
@@ -109,7 +109,7 @@ export function SolutionsCatalog() {
                         <Button
                             variant="outline"
                             className="mt-6 border-white/10"
-                            onClick={() => { setSearchQuery(''); setActiveCategory('Tous'); }}
+                            onClick={() => { setSearchQuery(''); setActiveCategory('all'); }}
                         >
                             {t('reset_search')}
                         </Button>

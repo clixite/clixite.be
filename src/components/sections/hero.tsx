@@ -71,17 +71,6 @@ export function Hero() {
             <div className="container mx-auto px-4 relative z-10">
                 <div className="relative z-10 max-w-4xl mx-auto text-center">
 
-                    {/* Badge */}
-                    <AnimatedSection delay={0.1}>
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 text-xs font-medium mb-8 backdrop-blur-sm mx-auto">
-                            <span className="relative flex h-2 w-2">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
-                            </span>
-                            {t('badge')}
-                        </div>
-                    </AnimatedSection>
-
                     {/* Title */}
                     <AnimatedSection delay={0.2}>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-8 leading-[1.1]">

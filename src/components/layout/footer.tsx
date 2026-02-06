@@ -1,10 +1,13 @@
-import { Github as GithubIcon, Linkedin as LinkedinIcon } from 'lucide-react';
+import { Github as GithubIcon, Linkedin as LinkedinIcon, ArrowRight } from 'lucide-react';
 import { BrandIcons } from '@/components/ui/brand-icons';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { siteConfig, navigation } from '@/lib/constants';
 import { Logo } from '@/components/ui/logo';
+import { useTranslations } from 'next-intl';
 
 export function Footer() {
+    const t = useTranslations();
+
     return (
         <footer className="relative border-t border-white/5 bg-slate-950 overflow-hidden">
             {/* Background Effects */}
@@ -19,7 +22,7 @@ export function Footer() {
                             <Logo />
                         </Link>
                         <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-                            Partenaire de votre transformation numérique en Belgique depuis 2005. Expertises Cloud, SaaS et Développement sur mesure.
+                            {t('Home.hero.description')}
                         </p>
                         <div className="flex gap-4">
                             <a
@@ -46,17 +49,17 @@ export function Footer() {
                     {/* Services Column */}
                     <div className="lg:col-span-3">
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-6 flex items-center gap-2 after:content-[''] after:h-px after:w-8 after:bg-teal-500/50">
-                            Services
+                            {t('Common.nav.services')}
                         </h3>
                         <ul className="space-y-3">
                             {navigation.services.map((item) => (
-                                <li key={item.name}>
+                                <li key={item.id}>
                                     <Link
                                         href={item.href}
                                         className="text-slate-400 hover:text-teal-400 transition-colors text-sm flex items-center gap-2 group"
                                     >
                                         <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-teal-400 transition-colors" />
-                                        {item.name}
+                                        {t(`Services.items.${item.id}.title`)}
                                     </Link>
                                 </li>
                             ))}
@@ -66,17 +69,17 @@ export function Footer() {
                     {/* Company Column */}
                     <div className="lg:col-span-2">
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-6 flex items-center gap-2 after:content-[''] after:h-px after:w-8 after:bg-teal-500/50">
-                            Agence
+                            {t('Common.footer.agency')}
                         </h3>
                         <ul className="space-y-3">
-                            {navigation.main.filter(i => ['À propos', 'Blog', 'Contact'].includes(i.name)).map((item) => (
-                                <li key={item.name}>
+                            {navigation.main.filter(i => ['about', 'contact'].includes(i.localeKey)).map((item) => (
+                                <li key={item.localeKey}>
                                     <Link
                                         href={item.href}
                                         className="text-slate-400 hover:text-teal-400 transition-colors text-sm flex items-center gap-2 group"
                                     >
                                         <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-teal-400 transition-colors" />
-                                        {item.name}
+                                        {t(`Common.nav.${item.localeKey}`)}
                                     </Link>
                                 </li>
                             ))}
@@ -153,13 +156,13 @@ export function Footer() {
                     </p>
                     <div className="flex flex-wrap justify-center gap-6 text-sm text-slate-500">
                         <Link href="/legal" className="hover:text-white transition-colors">
-                            Mentions légales
+                            {t('Common.footer.legal')}
                         </Link>
                         <Link href="/privacy" className="hover:text-white transition-colors">
-                            Politique de confidentialité
+                            {t('Common.footer.privacy')}
                         </Link>
                         <Link href="/terms" className="hover:text-white transition-colors">
-                            CGV
+                            {t('Common.footer.terms')}
                         </Link>
                     </div>
                 </div>

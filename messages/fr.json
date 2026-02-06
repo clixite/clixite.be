@@ -6,17 +6,20 @@
             "about": "À propos",
             "contact": "Contact",
             "caseStudies": "Cas Clients",
-            "auditRequest": "Nous contacter"
+            "auditRequest": "Nous contacter",
+            "mobileMenuTitle": "Menu de Navigation",
+            "mobileMenuDesc": "Accédez aux rubriques du site",
+            "language": "Langue"
         },
         "footer": {
             "description": "Architecte de votre souveraineté numérique. Nous libérons le potentiel de votre entreprise avec des solutions Open Source de pointe et une ingénierie assistée par l'IA.",
             "services": "Services",
             "solutions": "Solutions",
-            "company": "Entreprise",
-            "legal": "Légal",
+            "agency": "Agence",
+            "legal": "Mentions Légales",
             "rights": "Tous droits réservés.",
             "privacy": "Confidentialité",
-            "terms": "Conditions",
+            "terms": "CGV",
             "cookies": "Cookies"
         }
     },
@@ -309,17 +312,43 @@
             "reset_search": "Réinitialiser la recherche",
             "learn_more": "En savoir plus",
             "categories": {
-                "Tous": "Tous",
-                "Productivité": "Productivité",
-                "Sécurité": "Sécurité",
-                "Médias": "Médias",
-                "Monitoring": "Monitoring",
-                "Automatisation": "Automatisation",
-                "Développement": "Développement",
-                "BI": "BI",
-                "Documents": "Documents",
-                "Communication": "Communication"
+                "all": "Tous",
+                "productivity": "Productivité",
+                "security": "Sécurité",
+                "media": "Médias",
+                "monitoring": "Monitoring",
+                "automation": "Automatisation",
+                "development": "Développement",
+                "bi": "BI",
+                "documents": "Documents",
+                "communication": "Communication"
             }
         }
+    },
+    "Legal": {
+        "hero": {
+            "badge": "Légal",
+            "title": "Mentions Légales",
+            "description": "Informations sur l'éditeur du site et l'hébergement."
+        }
+    },
+    "Privacy": {
+        "hero": {
+            "badge": "RGPD",
+            "title": "Politique de Confidentialité",
+            "description": "Nous respectons votre vie privée et protégeons vos données."
+        }
+    },
+    "Terms": {
+        "hero": {
+            "badge": "Légal",
+            "title": "Conditions Générales de Vente",
+            "description": "Applicables à partir du 1er janvier 2025"
+        }
+    },
+    "CaseStudies": {
+        "badge": "Bientôt disponible",
+        "description": "Cette section présentera nos études de cas et success stories. Revenez bientôt !",
+        "contact_cta": "En attendant, n'hésitez pas à nous contacter pour discuter de vos projets."
     }
 }

@@ -6,13 +6,21 @@
             "about": "Over ons",
             "contact": "Contact",
             "caseStudies": "Klantcases",
-            "auditRequest": "Contacteer ons"
+            "auditRequest": "Contacteer ons",
+            "mobileMenuTitle": "Navigatiemenu",
+            "mobileMenuDesc": "Ga naar de verschillende secties van de site",
+            "language": "Taal"
         },
         "footer": {
             "description": "Architect van digitale soevereiniteit en AI-gestuurde software-excellentie.",
-            "rights": "Alle rechten voorbehouden.",
+            "services": "Diensten",
+            "solutions": "Oplossingen",
+            "agency": "Bureau",
             "legal": "Juridische informatie",
-            "privacy": "Privacybeleid"
+            "privacy": "Privacybeleid",
+            "terms": "Algemene Voorwaarden",
+            "cookies": "Cookies",
+            "rights": "Alle rechten voorbehouden."
         }
     },
     "Home": {
@@ -304,17 +312,43 @@
             "reset_search": "Zoekopdracht herstellen",
             "learn_more": "Meer informatie",
             "categories": {
-                "Tous": "Alle",
-                "Productiviteit": "Productiviteit",
-                "Sécurité": "Beveiliging",
-                "Médias": "Media",
-                "Monitoring": "Monitoring",
-                "Automatisation": "Automatisering",
-                "Développement": "Ontwikkeling",
-                "BI": "BI",
-                "Documents": "Documenten",
-                "Communication": "Communicatie"
+                "all": "Alle",
+                "productivity": "Productiviteit",
+                "security": "Beveiliging",
+                "media": "Media",
+                "monitoring": "Monitoring",
+                "automation": "Automatisering",
+                "development": "Ontwikkeling",
+                "bi": "BI",
+                "documents": "Documenten",
+                "communication": "Communicatie"
             }
         }
+    },
+    "Legal": {
+        "hero": {
+            "badge": "Juridisch",
+            "title": "Juridische kennisgeving",
+            "description": "Informatie over de uitgever van de site en hosting."
+        }
+    },
+    "Privacy": {
+        "hero": {
+            "badge": "GDPR",
+            "title": "Privacybeleid",
+            "description": "Wij respecteren uw privacy en beschermen uw gegevens."
+        }
+    },
+    "Terms": {
+        "hero": {
+            "badge": "Juridisch",
+            "title": "Algemene Voorwaarden",
+            "description": "Van kracht vanaf 1 januari 2025"
+        }
+    },
+    "CaseStudies": {
+        "badge": "Binnenkort beschikbaar",
+        "description": "Deze sectie zal onze casestudy's en succesverhalen presenteren. Kom snel terug!",
+        "contact_cta": "Aarzel in de tussentijd niet om contact met ons op te nemen om uw projecten te bespreken."
     }
 }

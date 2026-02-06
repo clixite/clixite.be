@@ -12,25 +12,26 @@ export const siteConfig = {
         vat: 'BE0871.430.776',
     },
     social: {
-        linkedin: 'https://linkedin.com/company/clixite',
+        linkedin: 'https://www.linkedin.com/in/nicolassim/',
         github: 'https://github.com/clixite',
     },
 };
 
 export const navigation = {
     main: [
-        { name: 'Services', href: '/services' },
-        { name: 'Solutions', href: '/solutions' },
-        { name: 'À propos', href: '/about' },
-        { name: 'Contact', href: '/contact' },
+        { name: 'services', localeKey: 'services', href: '/services' },
+        { name: 'solutions', localeKey: 'solutions', href: '/solutions' },
+        { name: 'caseStudies', localeKey: 'caseStudies', href: '/case-studies' },
+        { name: 'about', localeKey: 'about', href: '/about' },
+        { name: 'contact', localeKey: 'contact', href: '/contact' },
     ],
     services: [
-        { name: 'Consultance IT', href: '/services#consulting' },
-        { name: 'Développement SaaS', href: '/services#development' },
-        { name: 'Gestion PaaS', href: '/services#paas' },
-        { name: 'Solutions auto-hébergées', href: '/services#solutions' },
-        { name: 'Accompagnement', href: '/services#support' },
-        { name: 'Staffing IT', href: '/services#staffing' },
+        { id: 'consulting', href: '/services#consulting' },
+        { id: 'development', href: '/services#development' },
+        { id: 'paas', href: '/services#paas' },
+        { id: 'solutions', href: '/services#solutions' },
+        { id: 'support', href: '/services#support' },
+        { id: 'staffing', href: '/services#staffing' },
     ],
 };
 
