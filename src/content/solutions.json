@@ -1,0 +1,163 @@
+[
+    {
+        "id": "nextcloud",
+        "name": "Nextcloud",
+        "description": "Plateforme de productivité auto-hébergée pour le stockage, la collaboration et la communication.",
+        "category": "Productivité",
+        "icon": "Cloud"
+    },
+    {
+        "id": "vaultwarden",
+        "name": "Vaultwarden",
+        "description": "Gestionnaire de mots de passe auto-hébergé compatible Bitwarden.",
+        "category": "Sécurité",
+        "icon": "Shield"
+    },
+    {
+        "id": "jellyfin",
+        "name": "Jellyfin",
+        "description": "Le système multimédia libre : gérez et diffusez vos médias.",
+        "category": "Médias",
+        "icon": "Film"
+    },
+    {
+        "id": "grafana",
+        "name": "Grafana",
+        "description": "La plateforme ouverte d'analyse et de surveillance.",
+        "category": "Monitoring",
+        "icon": "BarChart3"
+    },
+    {
+        "id": "n8n",
+        "name": "n8n",
+        "description": "Automatisation de flux de travail extensible avec une approche fair-code.",
+        "category": "Automatisation",
+        "icon": "Workflow"
+    },
+    {
+        "id": "gitea",
+        "name": "Gitea",
+        "description": "Service Git auto-hébergé et indolore.",
+        "category": "Développement",
+        "icon": "GitBranch"
+    },
+    {
+        "id": "metabase",
+        "name": "Metabase",
+        "description": "Le moyen le plus simple et rapide pour votre équipe de poser des questions sur vos données.",
+        "category": "BI",
+        "icon": "PieChart"
+    },
+    {
+        "id": "authentik",
+        "name": "Authentik",
+        "description": "Fournisseur d'identité open-source axé sur la flexibilité et la polyvalence.",
+        "category": "Sécurité",
+        "icon": "Key"
+    },
+    {
+        "id": "uptime-kuma",
+        "name": "Uptime Kuma",
+        "description": "Un outil de surveillance auto-hébergé simple et moderne.",
+        "category": "Monitoring",
+        "icon": "Activity"
+    },
+    {
+        "id": "paperless-ngx",
+        "name": "Paperless-ngx",
+        "description": "Gestionnaire de documents personnels pour numériser, indexer et archiver vos documents.",
+        "category": "Documents",
+        "icon": "FileText"
+    },
+    {
+        "id": "affine",
+        "name": "AFFiNE",
+        "description": "Espace de travail tout-en-un pour l'écriture, le dessin et la planification.",
+        "category": "Productivité",
+        "icon": "Edit3"
+    },
+    {
+        "id": "vikunja",
+        "name": "Vikunja",
+        "description": "La liste de tâches open-source pour gérer votre vie.",
+        "category": "Productivité",
+        "icon": "CheckSquare"
+    },
+    {
+        "id": "wiki-js",
+        "name": "Wiki.js",
+        "description": "Le logiciel wiki open source le plus puissant et extensible.",
+        "category": "Productivité",
+        "icon": "Book"
+    },
+    {
+        "id": "keycloak",
+        "name": "Keycloak",
+        "description": "Gestion des accès et de l'identité open source.",
+        "category": "Sécurité",
+        "icon": "Lock"
+    },
+    {
+        "id": "immich",
+        "name": "Immich",
+        "description": "Solution de sauvegarde photo et vidéo haute performance auto-hébergée.",
+        "category": "Médias",
+        "icon": "Image"
+    },
+    {
+        "id": "photoprism",
+        "name": "PhotoPrism",
+        "description": "Application photo alimentée par l'IA pour le web décentralisé.",
+        "category": "Médias",
+        "icon": "Camera"
+    },
+    {
+        "id": "nocodb",
+        "name": "NocoDB",
+        "description": "Alternative Airtable Open Source transformant n'importe quelle base de données en tableur intelligent.",
+        "category": "BI",
+        "icon": "Database"
+    },
+    {
+        "id": "directus",
+        "name": "Directus",
+        "description": "Plateforme de données ouverte pour transformer votre base de données SQL en API et en application.",
+        "category": "BI",
+        "icon": "Server"
+    },
+    {
+        "id": "windmill",
+        "name": "Windmill",
+        "description": "Alternative open source à Retool et Airplane pour scripts et UI internes.",
+        "category": "Automatisation",
+        "icon": "Zap"
+    },
+    {
+        "id": "forgejo",
+        "name": "Forgejo",
+        "description": "Une forge logicielle auto-hébergée légère et complète.",
+        "category": "Développement",
+        "icon": "Code2"
+    },
+    {
+        "id": "mattermost",
+        "name": "Mattermost",
+        "description": "Plateforme de collaboration open source sécurisée.",
+        "category": "Communication",
+        "icon": "MessageSquare"
+    },
+    {
+        "id": "element",
+        "name": "Element",
+        "description": "Application de messagerie sécurisée et de collaboration d'équipe (basée sur Matrix).",
+        "category": "Communication",
+        "icon": "MessageCircle"
+    },
+    {
+        "id": "prometheus",
+        "name": "Prometheus",
+        "description": "Système de monitoring et d'alerte open source.",
+        "category": "Monitoring",
+        "icon": "Eye"
+    }
+]

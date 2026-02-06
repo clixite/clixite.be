@@ -1,0 +1,321 @@
+{
+    "Common": {
+        "nav": {
+            "services": "Diensten",
+            "solutions": "Oplossingen",
+            "about": "Over ons",
+            "contact": "Contact",
+            "caseStudies": "Klantcases",
+            "auditRequest": "Contacteer ons"
+        },
+        "footer": {
+            "description": "Architect van digitale soevereiniteit en AI-gestuurde software-excellentie.",
+            "rights": "Alle rechten voorbehouden.",
+            "legal": "Juridische informatie",
+            "privacy": "Privacybeleid"
+        }
+    },
+    "Home": {
+        "hero": {
+            "badge": "Digitale Soevereiniteit & Kunstmatige Intelligentie",
+            "title_line1": "Architect van uw",
+            "title_accent": "Digitale Excellentie",
+            "description": "Wij bouwen niet alleen software. Wij ontwerpen veerkrachtige digitale ecosystemen, aangestuurd door AI en beveiligd door ontwerp.",
+            "cta_audit": "Start de Strategische Audit",
+            "cta_solutions": "Ontdek onze Architecturen",
+            "trust": {
+                "security": {
+                    "title": "Security by Design",
+                    "subtitle": "ISO 27001 / NIS2 standaarden"
+                },
+                "sovereignty": {
+                    "title": "Data Soevereiniteit",
+                    "subtitle": "100% Belgische infrastructuren"
+                },
+                "ai": {
+                    "title": "AI Engineering",
+                    "subtitle": "Cognitieve Optimalisatie"
+                }
+            }
+        },
+        "stats": {
+            "title": "Autoriteit door Bewijs",
+            "description": "Tastbare resultaten, bewezen stabiliteit.",
+            "metrics": {
+                "expertise": {
+                    "value": "20+",
+                    "label": "Jarenlange Expertise",
+                    "description": "Sinds 2005 anticiperen wij op technologische golven om onze klanten voorop te houden."
+                },
+                "independent": {
+                    "value": "100%",
+                    "label": "Belgisch & Onafhankelijk",
+                    "description": "Eigen kapitaal, lokale infrastructuur. Geen afhankelijkheid van GAFAM voor uw kernactiviteiten."
+                },
+                "mastery": {
+                    "value": "250+",
+                    "label": "Beheerste Oplossingen",
+                    "description": "Een uitgebreide catalogus van Open Source technologieën om aan elke specifieke behoefte te voldoen."
+                },
+                "response": {
+                    "value": "< 4u",
+                    "label": "Responstijd",
+                    "description": "Ultra-reactieve kritische ondersteuning om de continuïteit van uw activiteiten te garanderen."
+                }
+            }
+        },
+        "services": {
+            "badge": "Onze expertises",
+            "title": "Volledige IT-diensten",
+            "description": "Van audit tot onderhoud, één aanspreekpunt voor al uw technologische behoeften.",
+            "items": {
+                "software": {
+                    "title": "Software Engineering & AI",
+                    "description": "Ontwikkeling van kritieke applicaties ondersteund door AI. Wij creëren robuuste, schaalbare en cognitief geoptimaliseerde systemen."
+                },
+                "cloud": {
+                    "title": "Soevereine Cloud Architectuur",
+                    "description": "Implementatie van private infrastructuren op hoogwaardige VPS. Uw gegevens blijven in België/EU, onder uw volledige controle."
+                },
+                "security": {
+                    "title": "Audit & Cognitieve Beveiliging",
+                    "description": "Grondige analyse van uw systemen. Pentesting, GDPR/NIS2-conformiteit en proactieve beveiliging van gegevensstromen."
+                },
+                "saas": {
+                    "title": "Open Source SaaS Integratie",
+                    "description": "Waarom het wiel opnieuw uitvinden? Wij integreren en beveiligen de beste oplossingen op de markt (Nextcloud, Odoo, etc.)."
+                },
+                "consulting": {
+                    "title": "Strategische Consultancy",
+                    "description": "CTO-as-a-Service begeleiding om uw technologie af te stemmen op uw zakelijke doelstellingen op lange termijn."
+                },
+                "training": {
+                    "title": "Transformatie & Training",
+                    "description": "Wij trainen uw teams in de nieuwe paradigma's: generatieve AI, automatisering en DevSecOps-cultuur."
+                }
+            },
+            "cta": "Bekijk al onze diensten"
+        },
+        "solutions": {
+            "badge": "250+ Oplossingen",
+            "title": "Het Open Source ecosysteem",
+            "description": "Wij installeren, configureren en onderhouden de beste self-hosted tools voor uw digitale soevereiniteit.",
+            "categories": {
+                "Productiviteit": "Productiviteit",
+                "Beveiliging": "Beveiliging",
+                "Media": "Media",
+                "Monitoring": "Monitoring",
+                "Automatisering": "Automatisering",
+                "Ontwikkeling": "Ontwikkeling",
+                "BI": "BI",
+                "Documenten": "Documenten",
+                "Identité": "Identiteit",
+                "Communication": "Communicatie"
+            },
+            "cta_text": "En meer dan {count} andere beschikbare oplossingen...",
+            "cta_button": "Verken de volledige catalogus"
+        },
+        "cta": {
+            "badge": "Eerste Contact",
+            "title_line1": "Uw digitale transformatie",
+            "title_accent": "begint vandaag",
+            "description": "Laten we uw project bespreken. Of u nu een audit, maatwerkontwikkeling of een robuuste infrastructuur nodig heeft, wij hebben de oplossing.",
+            "button": "Afspraak maken"
+        }
+    },
+    "About": {
+        "hero": {
+            "badge": "Onze Visie",
+            "title": "Architect van het Onzichtbare Digitale",
+            "description": "Clixite is ontstaan uit een overtuiging: IT-infrastructuur mag niet langer een ondoorzichtige kostenpost zijn, maar een strategisch soeverein en krachtig bezit."
+        },
+        "values": {
+            "sovereignty": {
+                "title": "Digitale Soevereiniteit",
+                "description": "Wij geloven dat elk bedrijf zijn eigen data moet bezitten. Open Source is geen technische keuze, het is een strategische beslissing voor onafhankelijkheid."
+            },
+            "cognitive": {
+                "title": "Cognitieve Excellentie",
+                "description": "AI vervangt de ingenieur niet, maar versterkt hem. We coderen met een precisie ondersteund door de beste modellen om robuustheid en prestaties te garanderen."
+            },
+            "alignment": {
+                "title": "Business Afstemming",
+                "description": "Technologie is nutteloos als het de groei niet dient. Onze CTO-as-a-Service visie zorgt voor deze constante afstemming."
+            }
+        },
+        "founder": {
+            "title": "De Expertise van Nicolas Simon",
+            "p1": "Met meer dan 15 jaar ervaring in software engineering en het beheer van kritieke infrastructuren, heb ik Clixite opgericht om bedrijven een serieus alternatief te bieden voor de almachtige \"Public Cloud\".",
+            "p2": "Mijn aanpak combineert de nauwkeurigheid van softwarearchitectuur met de snelheid van moderne automatiseringstools. Hier heeft elke regel code en elke geïmplementeerde container een specifiek doel: efficiëntie.",
+            "role": "Oprichter & Hoofdarchitect"
+        },
+        "methodology": {
+            "title": "Hoe we werken",
+            "steps": {
+                "audit": {
+                    "title": "Audit & Analyse",
+                    "description": "Het bestaande begrijpen, knelpunten opsporen en soevereiniteitskansen identificeren."
+                },
+                "architecture": {
+                    "title": "Op Maat Gemaakte Architectuur",
+                    "description": "Ontwerp van veerkrachtige systemen gebaseerd op beproefde Open Source bouwstenen."
+                },
+                "deployment": {
+                    "title": "Continue Implementatie",
+                    "description": "Geautomatiseerde ingebruikname met een strikte DevSecOps-cultuur."
+                },
+                "maintenance": {
+                    "title": "Onderhoud & Evolutie",
+                    "description": "Proactieve ondersteuning en technologische monitoring om uw infrastructuur voorop te houden."
+                }
+            }
+        },
+        "cta": {
+            "title": "Klaar om de controle terug te nemen?",
+            "description": "Laat uw technologische bestemming niet langer in handen van derden. Laten we uw eigen infrastructuur bouwen.",
+            "button": "Start het gesprek"
+        }
+    },
+    "Contact": {
+        "title": "Laten we uw project starten",
+        "badge": "Direct Contact",
+        "description": "Vergeet eindeloze formulieren. Neem direct contact met ons op via het kanaal dat u het beste uitkomt.",
+        "methods": {
+            "whatsapp": {
+                "name": "WhatsApp Business",
+                "description": "Snelle reactie voor noodgevallen of directe vragen.",
+                "action": "Start een gesprek"
+            },
+            "bookings": {
+                "name": "Microsoft Bookings",
+                "description": "Reserveer direct een tijdstip in mijn Outlook 365 agenda.",
+                "action": "Maak een afspraak"
+            },
+            "linkedin": {
+                "name": "LinkedIn",
+                "description": "Volg ons nieuws en neem contact op via het zakelijke netwerk.",
+                "action": "Bekijk profiel"
+            },
+            "email": {
+                "name": "Directe E-mail",
+                "description": "Voor formele verzoeken of het verzenden van documenten.",
+                "action": "Stuur een e-mail"
+            }
+        },
+        "expertise": {
+            "title": "Snel expertise nodig?",
+            "description": "Nicolas Simon en het Clixite-team staan tot uw beschikking voor een flash-audit van 15 minuten. Geen gepraat, alleen concrete oplossingen voor uw infrastructuur.",
+            "response_time": "Antwoord binnen 24u",
+            "belgian_expertise": "Belgische Expertise"
+        }
+    },
+    "Services": {
+        "hero": {
+            "title": "Onze Diensten",
+            "description": "Volledige IT-oplossingen om uw digitale transformatie te begeleiden."
+        },
+        "items": {
+            "consulting": {
+                "title": "IT Consultancy & Audit",
+                "description": "Een strategische aanpak om uw technologie af te stemmen op uw zakelijke doelstellingen.",
+                "features": [
+                    "Audit van bestaande infrastructuur",
+                    "Business process mapping",
+                    "Analyse van digitale maturiteit",
+                    "Strategische IT-aanbevelingen",
+                    "Technologische due diligence (M&A)",
+                    "RGPD / NIS2 / DORA conformiteit"
+                ]
+            },
+            "development": {
+                "title": "SaaS Ontwikkeling",
+                "description": "Krachtige, veilige en schaalbare web- en mobiele applicaties.",
+                "features": [
+                    "Frontend: React, Next.js, Vue.js, TypeScript",
+                    "Backend: Node.js, Python, Go, Rust",
+                    "Databases: PostgreSQL, MongoDB, Redis",
+                    "Maatwerk SaaS-bedrijfsapplicaties",
+                    "Klantenportalen en extranets",
+                    "API-integraties en middleware"
+                ]
+            },
+            "paas": {
+                "title": "PaaS & Cloud Beheer",
+                "description": "Een robuuste en geautomatiseerde infrastructuur voor uw kritieke applicaties.",
+                "features": [
+                    "Privé- en hybride cloudhosting",
+                    "Kubernetes / Docker orchestratie",
+                    "CI/CD pipelines",
+                    "Monitoring en observabiliteit",
+                    "Reverse proxy en load balancing",
+                    "Hoge Beschikbaarheid en Disaster Recovery"
+                ]
+            },
+            "solutions": {
+                "title": "Self-hosted Oplossingen",
+                "description": "Neem de controle over uw gegevens terug met de beste open-source tools.",
+                "features": [
+                    "Productiviteit & Samenwerking (Nextcloud)",
+                    "Business Intelligence (Metabase, Superset)",
+                    "Beveiliging & Identiteit (Vaultwarden, Keycloak)",
+                    "Media & Streaming (Jellyfin)",
+                    "Automatisering (n8n)",
+                    "Ontwikkeling (Gitea, GitLab)"
+                ]
+            },
+            "support": {
+                "title": "Begeleiding & Onderhoud",
+                "description": "Reactieve en deskundige ondersteuning om de continuïteit van uw activiteiten te garanderen.",
+                "features": [
+                    "Gebruikers- en beheerderstraining",
+                    "N1/N2/N3 technische ondersteuning",
+                    "Evolutionair en correctief onderhoud",
+                    "Maatwerk SLA's",
+                    "Technologische monitoring",
+                    "Maandelijkse rapportage"
+                ]
+            },
+            "staffing": {
+                "title": "IT Staffing",
+                "description": "Versterk uw teams met onze gekwalificeerde experts.",
+                "features": [
+                    "Onshore IT-consultants (België)",
+                    "Gekwalificeerde offshore teams",
+                    "Time & Material of fixed-price modus",
+                    "Expertise in project/program management",
+                    "Full Stack, DevOps, Data developers",
+                    "Contractuele flexibiliteit"
+                ]
+            }
+        },
+        "common": {
+            "key_features": "Belangrijkste kenmerken",
+            "learn_more": "Meer informatie"
+        }
+    },
+    "Solutions": {
+        "hero": {
+            "title": "Oplossingen Catalogus",
+            "description": "Een zorgvuldige selectie van de beste open-source tools om aan al uw zakelijke behoeften te voldoen."
+        },
+        "catalog": {
+            "search_placeholder": "Zoek een oplossing (bijv. Nextcloud, CRM, ...)",
+            "no_results": "Geen resultaten gevonden",
+            "no_results_desc": "We hebben geen oplossing gevonden die overeenkomt met \"{query}\". Probeer andere zoekwoorden of blader door de categorieën.",
+            "reset_search": "Zoekopdracht herstellen",
+            "learn_more": "Meer informatie",
+            "categories": {
+                "Tous": "Alle",
+                "Productiviteit": "Productiviteit",
+                "Sécurité": "Beveiliging",
+                "Médias": "Media",
+                "Monitoring": "Monitoring",
+                "Automatisation": "Automatisering",
+                "Développement": "Ontwikkeling",
+                "BI": "BI",
+                "Documents": "Documenten",
+                "Communication": "Communicatie"
+            }
+        }
+    }
+}

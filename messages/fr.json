@@ -1,0 +1,326 @@
+{
+    "Common": {
+        "nav": {
+            "services": "Services",
+            "solutions": "Solutions",
+            "about": "À propos",
+            "contact": "Contact",
+            "caseStudies": "Cas Clients",
+            "auditRequest": "Nous contacter"
+        },
+        "footer": {
+            "description": "Architecte de votre souveraineté numérique. Nous libérons le potentiel de votre entreprise avec des solutions Open Source de pointe et une ingénierie assistée par l'IA.",
+            "services": "Services",
+            "solutions": "Solutions",
+            "company": "Entreprise",
+            "legal": "Légal",
+            "rights": "Tous droits réservés.",
+            "privacy": "Confidentialité",
+            "terms": "Conditions",
+            "cookies": "Cookies"
+        }
+    },
+    "Home": {
+        "hero": {
+            "badge": "Souveraineté Numérique & Intelligence Artificielle",
+            "title_line1": "Architecte de votre",
+            "title_accent": "Excellence Numérique",
+            "description": "Nous ne construisons pas simplement du logiciel. Nous concevons des écosystèmes numériques résilients, pilotés par l'IA et sécurisés par conception.",
+            "cta_audit": "Démarrer un Audit Stratégique",
+            "cta_solutions": "Explorer nos Architectures",
+            "trust": {
+                "security": {
+                    "title": "Sécurité par Conception",
+                    "subtitle": "Standards ISO 27001 / NIS2"
+                },
+                "sovereignty": {
+                    "title": "Souveraineté des Données",
+                    "subtitle": "Infrastructures 100% Belges"
+                },
+                "ai": {
+                    "title": "Ingénierie Augmentée par l'IA",
+                    "subtitle": "Optimisation Cognitive"
+                }
+            }
+        },
+        "stats": {
+            "title": "L'Autorité par la Preuve",
+            "description": "Des résultats tangibles, une stabilité avérée.",
+            "metrics": {
+                "expertise": {
+                    "value": "20+",
+                    "label": "Années d'Expertise",
+                    "description": "Depuis 2005, nous anticipons les vagues technologiques pour garder nos clients en avance."
+                },
+                "independent": {
+                    "value": "100%",
+                    "label": "Belge & Indépendant",
+                    "description": "Capitaux propres, infrastructure locale. Aucune dépendance aux GAFAM pour votre cœur de métier."
+                },
+                "mastery": {
+                    "value": "250+",
+                    "label": "Solutions Maîtrisées",
+                    "description": "Un catalogue exhaustif de technologies Open Source pour répondre à chaque besoin spécifique."
+                },
+                "response": {
+                    "value": "< 4h",
+                    "label": "Temps de Réponse",
+                    "description": "Support critique ultra-réactif pour garantir la continuité de vos opérations."
+                }
+            }
+        },
+        "services": {
+            "badge": "Nos Expertises",
+            "title": "Services IT Complets",
+            "description": "De l'audit à la maintenance, un interlocuteur unique pour tous vos besoins technologiques.",
+            "items": {
+                "software": {
+                    "title": "Ingénierie Logicielle & IA",
+                    "description": "Développement d'applications critiques assisté par l'IA. Nous créons des systèmes robustes, scalables et cognitivement optimisés."
+                },
+                "cloud": {
+                    "title": "Architecture Cloud Souverain",
+                    "description": "Déploiement d'infrastructures privées sur VPS haute performance. Vos données restent en Belgique/EU, sous votre contrôle total."
+                },
+                "security": {
+                    "title": "Audit & Sécurité Cognitive",
+                    "description": "Analyse approfondie de vos systèmes. Pentesting, conformité RGPD/NIS2, et sécurisation proactive des flux."
+                },
+                "saas": {
+                    "title": "Intégration SaaS Open Source",
+                    "description": "Pourquoi réinventer la roue ? Nous intégrons et sécurisons les meilleures solutions du marché (Nextcloud, Odoo, etc.)."
+                },
+                "consulting": {
+                    "title": "Conseil Stratégique",
+                    "description": "Accompagnement CTO-as-a-Service pour aligner votre technologie sur vos objectifs business long terme."
+                },
+                "training": {
+                    "title": "Transformation & Formation",
+                    "description": "Nous formons vos équipes aux nouveaux paradigmes : IA générative, automatisation et culture DevSecOps."
+                }
+            },
+            "cta": "Voir tous nos services"
+        },
+        "solutions": {
+            "badge": "250+ Solutions",
+            "title": "L'écosystème Open Source",
+            "description": "Nous installons, configurons et maintenons les meilleurs outils auto-hébergés pour votre souveraineté numérique.",
+            "categories": {
+                "Productivité": "Productivité",
+                "Sécurité": "Sécurité",
+                "Médias": "Médias",
+                "Monitoring": "Monitoring",
+                "Automatisation": "Automatisation",
+                "Développement": "Développement",
+                "BI": "BI",
+                "Documents": "Documents",
+                "Identité": "Identité",
+                "Communication": "Communication"
+            },
+            "cta_text": "Et plus de {count} autres solutions disponibles...",
+            "cta_button": "Explorer le catalogue complet"
+        },
+        "cta": {
+            "badge": "Premier Contact",
+            "title_line1": "Prêt pour",
+            "title_accent": "la souveraineté ?",
+            "description": "Discutons de votre projet. Que vous ayez besoin d'un audit, d'un développement sur mesure ou d'une infrastructure robuste, nous avons la solution.",
+            "button": "Prendre rendez-vous"
+        }
+    },
+    "About": {
+        "hero": {
+            "badge": "Notre Vision",
+            "title": "Architecte de l'Invisible Numérique",
+            "description": "Clixite est né d'une conviction : l'infrastructure IT ne doit plus être un coût opaque, mais un actif stratégique souverain et performant."
+        },
+        "values": {
+            "sovereignty": {
+                "title": "Souveraineté Numérique",
+                "description": "Nous croyons que chaque entreprise doit posséder ses données. L'Open Source n'est pas un choix technique, c'est une décision stratégique d'indépendance."
+            },
+            "cognitive": {
+                "title": "Excellence Cognitive",
+                "description": "L'IA ne remplace pas l'ingénieur, elle l'augmente. Nous codons avec une précision assistée par les meilleurs modèles pour garantir robustesse et performance."
+            },
+            "alignment": {
+                "title": "Alignement Business",
+                "description": "La technologie ne sert à rien si elle n'est pas au service de la croissance. Notre vision CTO-as-a-Service assure cet alignement constant."
+            }
+        },
+        "founder": {
+            "title": "L'Expertise Nicolas Simon",
+            "p1": "Avec plus de 15 ans d'expérience en ingénierie logicielle et gestion d'infrastructures critiques, j'ai fondé Clixite pour offrir aux entreprises une alternative sérieuse au \"Cloud Public\" tout-puissant.",
+            "p2": "Mon approche combine la rigueur de l'architecture logicielle avec la vélocité des outils modernes d'automatisation. Ici, chaque ligne de code et chaque conteneur déployé a un but précis : l'efficacité.",
+            "role": "Fondateur & Architecte Principal"
+        },
+        "methodology": {
+            "title": "Comment nous travaillons",
+            "steps": {
+                "audit": {
+                    "title": "Audit & Analyse",
+                    "description": "Comprendre l'existant, déceler les goulots d'étranglement et identifier les opportunités de souveraineté."
+                },
+                "architecture": {
+                    "title": "Architecture sur Mesure",
+                    "description": "Conception de systèmes résilients basés sur des briques Open Source éprouvées."
+                },
+                "deployment": {
+                    "title": "Déploiement Continu",
+                    "description": "Mise en production automatisée avec une culture DevSecOps stricte."
+                },
+                "maintenance": {
+                    "title": "Maintenance & Évolution",
+                    "description": "Support proactif et veille technologique pour garder votre infrastructure à la pointe."
+                }
+            }
+        },
+        "cta": {
+            "title": "Prêt à reprendre le contrôle ?",
+            "description": "Ne laissez plus votre destin technologique entre les mains de tiers. Construisons votre propre infrastructure.",
+            "button": "Commencer la discussion"
+        }
+    },
+    "Contact": {
+        "title": "Démarrons votre projet",
+        "badge": "Contact Direct",
+        "description": "Oubliez les formulaires interminables. Contactez-nous directement via le canal qui vous convient le mieux.",
+        "methods": {
+            "whatsapp": {
+                "name": "WhatsApp Business",
+                "description": "Réponse rapide pour vos urgences ou questions directes.",
+                "action": "Démarrer une discussion"
+            },
+            "bookings": {
+                "name": "Microsoft Bookings",
+                "description": "Réservez un créneau directement dans mon calendrier Outlook 365.",
+                "action": "Prendre rendez-vous"
+            },
+            "linkedin": {
+                "name": "LinkedIn",
+                "description": "Suivez nos actualités et contactez-nous via le réseau pro.",
+                "action": "Voir le profil"
+            },
+            "email": {
+                "name": "Email Direct",
+                "description": "Pour toute demande formelle ou envoi de documents.",
+                "action": "Envoyer un mail"
+            }
+        },
+        "expertise": {
+            "title": "Besoin d'une expertise rapide ?",
+            "description": "Nicolas Simon et l'équipe Clixite sont à votre disposition pour un audit flash de 15 minutes. Pas de blabla, juste des solutions concrètes pour votre infrastructure.",
+            "response_time": "Réponse sous 24h",
+            "belgian_expertise": "Expertise Belge"
+        }
+    },
+    "Services": {
+        "hero": {
+            "title": "Nos Services",
+            "description": "Des solutions IT complètes pour accompagner votre transformation digitale."
+        },
+        "items": {
+            "consulting": {
+                "title": "Consultance IT & Audit",
+                "description": "Une approche stratégique pour aligner votre technologie avec vos objectifs business.",
+                "features": [
+                    "Audit d'infrastructure existante",
+                    "Cartographie des processus métier",
+                    "Analyse de maturité digitale",
+                    "Recommandations stratégiques IT",
+                    "Due diligence technologique (M&A)",
+                    "Conformité RGPD / NIS2 / DORA"
+                ]
+            },
+            "development": {
+                "title": "Développement SaaS",
+                "description": "Des applications web et mobiles performantes, sécurisées et évolutives.",
+                "features": [
+                    "Frontend: React, Next.js, Vue.js, TypeScript",
+                    "Backend: Node.js, Python, Go, Rust",
+                    "Databases: PostgreSQL, MongoDB, Redis",
+                    "Applications SaaS métier sur mesure",
+                    "Portails clients et extranets",
+                    "Intégrations API et middleware"
+                ]
+            },
+            "paas": {
+                "title": "Gestion PaaS & Cloud",
+                "description": "Une infrastructure robuste et automatisée pour vos applications critiques.",
+                "features": [
+                    "Hébergement cloud privé et hybride",
+                    "Orchestration Kubernetes / Docker",
+                    "CI/CD pipelines",
+                    "Monitoring et observabilité",
+                    "Reverse proxy et load balancing",
+                    "Haute disponibilité et Disaster Recovery"
+                ]
+            },
+            "solutions": {
+                "title": "Solutions Auto-hébergées",
+                "description": "Reprenez le contrôle de vos données avec les meilleurs outils open source.",
+                "features": [
+                    "Productivité & Collaboration (Nextcloud)",
+                    "Business Intelligence (Metabase, Superset)",
+                    "Sécurité & Identité (Vaultwarden, Keycloak)",
+                    "Médias & Streaming (Jellyfin)",
+                    "Automatisation (n8n)",
+                    "Développement (Gitea, GitLab)"
+                ]
+            },
+            "support": {
+                "title": "Accompagnement & Support",
+                "description": "Un support réactif et expert pour garantir la continuité de vos opérations.",
+                "features": [
+                    "Formation utilisateurs et administrateurs",
+                    "Support technique N1/N2/N3",
+                    "Maintenance évolutive et corrective",
+                    "SLA personnalisés",
+                    "Veille technologique",
+                    "Reporting mensuel"
+                ]
+            },
+            "staffing": {
+                "title": "Staffing IT",
+                "description": "Renforcez vos équipes avec nos experts qualifiés.",
+                "features": [
+                    "Consultants IT onshore (Belgique)",
+                    "Équipes offshore qualifiées",
+                    "Mode régie (Time & Material) ou forfait",
+                    "Expertise project/program management",
+                    "Développeurs Full Stack, DevOps, Data",
+                    "Flexibilité contractuelle"
+                ]
+            }
+        },
+        "common": {
+            "key_features": "Fonctionnalités clés",
+            "learn_more": "En savoir plus"
+        }
+    },
+    "Solutions": {
+        "hero": {
+            "title": "Catalogue de Solutions",
+            "description": "Une sélection rigoureuse des meilleurs outils open source pour répondre à tous vos besoins métier."
+        },
+        "catalog": {
+            "search_placeholder": "Rechercher une solution (ex: Nextcloud, CRM, ...)",
+            "no_results": "Aucun résultat trouvé",
+            "no_results_desc": "Nous n'avons pas trouvé de solution correspondant à \"{query}\". Essayez d'autres mots-clés ou parcourez les catégories.",
+            "reset_search": "Réinitialiser la recherche",
+            "learn_more": "En savoir plus",
+            "categories": {
+                "Tous": "Tous",
+                "Productivité": "Productivité",
+                "Sécurité": "Sécurité",
+                "Médias": "Médias",
+                "Monitoring": "Monitoring",
+                "Automatisation": "Automatisation",
+                "Développement": "Développement",
+                "BI": "BI",
+                "Documents": "Documents",
+                "Communication": "Communication"
+            }
+        }
+    }
+}
