@@ -54,8 +54,13 @@ const config: Config = {
                 'fade-up': 'fadeUp 0.5s ease-out',
                 'glow': 'glow 3s ease-in-out infinite',
                 'float': 'float 6s ease-in-out infinite',
+                'gradient': 'gradient 8s linear infinite',
             },
             keyframes: {
+                gradient: {
+                    '0%, 100%': { 'background-size': '200% 200%', 'background-position': 'left center' },
+                    '50%': { 'background-size': '200% 200%', 'background-position': 'right center' },
+                },
                 fadeIn: {
                     '0%': { opacity: '0' },
                     '100%': { opacity: '1' },

@@ -44,6 +44,7 @@ import { routing } from '@/i18n/routing';
 import { Toaster } from '@/components/ui/sonner';
 import { CookieBanner } from '@/components/ui/cookie-banner';
 import { SmoothScroll } from '@/components/layout/smooth-scroll';
+import { CustomCursor } from '@/components/ui/custom-cursor';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -80,6 +81,7 @@ export default async function RootLayout({
               {children}
             </main>
           </SmoothScroll>
+          <CustomCursor />
           <Toaster />
           <CookieBanner />
         </NextIntlClientProvider>

@@ -10,6 +10,7 @@ import { Logo } from '@/components/ui/logo';
 import { LanguageSwitcher } from './language-switcher';
 import { navigation, siteConfig } from '@/lib/constants';
 import { Menu } from 'lucide-react';
+import { MagneticButton } from '@/components/ui/magnetic-button';
 
 export function Header() {
     const t = useTranslations('Common.nav');
@@ -55,11 +56,13 @@ export function Header() {
                 </nav>
 
                 {/* Desktop Actions */}
-                <div className="hidden lg:flex items-center gap-4">
+                <div className="hidden lg:flex items-center gap-6">
                     <LanguageSwitcher />
-                    <Button asChild className="rounded-full bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-500 hover:to-blue-500 text-white font-medium shadow-lg shadow-teal-900/20 border-t border-white/10 transition-all duration-300 hover:scale-105">
-                        <Link href="/contact">{t('auditRequest')}</Link>
-                    </Button>
+                    <MagneticButton>
+                        <Button asChild className="rounded-full bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-500 hover:to-blue-500 text-white font-medium shadow-lg shadow-teal-900/20 border-t border-white/10 transition-all duration-300 hover:scale-105">
+                            <Link href="/contact">{t('auditRequest')}</Link>
+                        </Button>
+                    </MagneticButton>
                 </div>
 
                 {/* Mobile Menu */}
