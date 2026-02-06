@@ -24,50 +24,50 @@ jobs:
           port: 22
           script_stop: true
           script: |
-            echo "Starting deployment script for branch ${{ github.ref_name }}..."
+            echo "🚀 Starting deployment for branch: ${{ github.ref_name }}"
             
-            # Load Node/NPM environment (NVM, Volta, or standard)
+            # 1. Setup Environment
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-            export PATH=$PATH:/usr/local/bin:/usr/bin:/bin
+            export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:$(npm config get prefix)/bin
             
-            APP_DIR=${APP_DIR:-/var/www/clixite.be}
-            echo "Target directory: $APP_DIR"
+            echo "Node version: $(node -v)"
+            echo "NPM version: $(npm -v)"
 
-            # Create app directory if it does not exist
+            APP_DIR="/var/www/clixite.be"
+            
+            # 2. Directory Management
             if [ ! -d "$APP_DIR" ]; then
-              echo "Creating directory $APP_DIR"
               sudo mkdir -p "$APP_DIR"
               sudo chown -R $USER:$USER "$APP_DIR"
             fi
-
             cd "$APP_DIR"
-            echo "Currently in: $(pwd)"
 
-            # If .git exists, pull latest; otherwise clone
+            # 3. Git Sync
+            echo "📥 Syncing code..."
             if [ -d ".git" ]; then
-              echo "Repository exists, fetching latest changes..."
               git fetch origin
               git reset --hard origin/${{ github.ref_name }}
             else
-              echo "Repository does not exist, cloning..."
               git clone https://github.com/clixite/clixite.be.git .
               git checkout ${{ github.ref_name }}
             fi
 
-            # Install dependencies and build on the server
-            echo "Installing dependencies..."
-            npm ci || npm install
-            
-            echo "Building application..."
+            # 4. Install & Build
+            # On nettoie le cache NPM pour éviter les erreurs de lockfile sur VPS
+            echo "📦 Installing dependencies..."
+            npm install --no-audit --no-fund
+
+            echo "🏗️ Building application..."
+            # On supprime le build précédent pour libérer de l'espace
+            rm -rf .next
             npm run build
 
-            # Start or restart the app with PM2
-            echo "Starting/Restarting with PM2..."
-            if pm2 list | grep -q "clixite-website"; then
-              pm2 reload clixite-website
-            else
-              pm2 start ecosystem.config.js
-            fi
+            # 5. Process Management (PM2)
+            echo "🔄 Restarting application..."
+            # On utilise le nom défini dans ecosystem.config.js
+            pm2 delete clixite-website || true
+            pm2 start ecosystem.config.js
             pm2 save
-            echo "Deployment successful!"
+            
+            echo "✅ Deployment successful!"
