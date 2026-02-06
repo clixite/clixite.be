@@ -1,7 +1,6 @@
 import { SolutionsCatalog } from '@/components/sections/solutions-catalog';
 import { AnimatedSection } from '@/components/ui/animated-section';
 import { CTASection } from '@/components/sections/cta-section';
-import { useTranslations } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -16,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function SolutionsPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     setRequestLocale(locale);
-    const t = useTranslations('Solutions');
+    const t = await getTranslations({ locale, namespace: 'Solutions' });
 
     return (
         <>
