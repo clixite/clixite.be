@@ -8,7 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: clixite.be
 
     steps:
       - name: Checkout repository
@@ -23,28 +22,39 @@ jobs:
           port: 22
           script_stop: true
           script: |
+            echo "Starting deployment script..."
             APP_DIR=${APP_DIR:-/var/www/clixite.be}
+            echo "Target directory: $APP_DIR"
 
             # Create app directory if it does not exist
             if [ ! -d "$APP_DIR" ]; then
+              echo "Creating directory $APP_DIR"
               sudo mkdir -p "$APP_DIR"
               sudo chown -R $USER:$USER "$APP_DIR"
             fi
 
             cd "$APP_DIR"
+            echo "Currently in: $(pwd)"
 
             # If .git exists, pull latest; otherwise clone
             if [ -d ".git" ]; then
+              echo "Repository exists, fetching latest changes..."
               git fetch origin
               git reset --hard origin/main
             else
+              echo "Repository does not exist, cloning..."
               git clone https://github.com/clixite/clixite.be.git .
             fi
 
             # Install dependencies and build on the server
-            npm ci
+            echo "Installing dependencies..."
+            npm ci || npm install
+            
+            echo "Building application..."
             npm run build
 
             # Start or restart the app with PM2
+            echo "Starting/Restarting with PM2..."
             pm2 start ecosystem.config.js || pm2 restart ecosystem.config.js
             pm2 save
+            echo "Deployment successful!"
